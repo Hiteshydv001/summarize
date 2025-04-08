@@ -1,0 +1,10 @@
+# backend/requirements.txt
+fastapi
+uvicorn[standard]
+google-generativeai
+langchain
+langchain-community
+langchain-google-genai
+faiss-cpu           # Or faiss-gpu if you have CUDA setup
+python-dotenv
+pydantic~=2.0       # Explicitly specify Pydantic v2 if needed
